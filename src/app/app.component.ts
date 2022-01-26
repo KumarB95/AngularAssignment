@@ -13,8 +13,14 @@ export class AppComponent {
 
   imgUrl="../assets/WhatsApp Image 2022-01-26 at 8.25.00 PM.jpeg"
 
+  url="https://www.bridgelabz.com/"
+
   ngOnInit(){
     this.title="Hello from bridgelabz";
   }
 
+  onClick($event:any){
+    console.log("Save button is clicked!" ,$event);
+    window.open(this.url, "_blank");
+  }
 }
