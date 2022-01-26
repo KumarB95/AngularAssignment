@@ -11,6 +11,8 @@ export class AppComponent {
 
   title = 'HelloWorld';
 
+  imgUrl="../assets/WhatsApp Image 2022-01-26 at 8.25.00 PM.jpeg"
+
   ngOnInit(){
     this.title="Hello from bridgelabz";
   }
