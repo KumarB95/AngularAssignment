@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'assignment1';
+  
+  // UC1
+
+  title = 'HelloWorld';
+
+  ngOnInit(){
+    this.title="Hello from bridgelabz";
+  }
+
 }
